@@ -1,0 +1,2 @@
+We should be able to use child objects instead of parent objects
+and such substitution should not alter behaviour/characteristics of the program
