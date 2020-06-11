@@ -2,6 +2,7 @@ package pw.goryachev.dp.solid.single_responsibility;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import pw.goryachev.dp.solid.single_responsibility.incorrect.UserController;
 
 import java.io.IOException;
 
@@ -11,11 +12,11 @@ class UserControllerIncorrectTest {
 
     private static final String VALID_USER_JSON = "{\"name\": \"Randy\", \"email\": \"randy@email.com\", \"address\":\"110 Sugar lane\"}";
     private static final String INVALID_USER_JSON = "{\"name\": \"Sam\", \"email\": \"sam@email\", \"address\":\"111 Sugar lane\"}";
-    private UserControllerIncorrect controller;
+    private UserController controller;
 
     @BeforeEach
     void setUp() {
-        controller = new UserControllerIncorrect();
+        controller = new UserController();
     }
 
     @Test

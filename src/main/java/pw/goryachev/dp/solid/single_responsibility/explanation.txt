@@ -1,0 +1,6 @@
+There should never be more than one reason for a class to change
+
+controller incorrect because it has validation and store functionality
+
+corrected controller - validation and storage now in separate classes
+

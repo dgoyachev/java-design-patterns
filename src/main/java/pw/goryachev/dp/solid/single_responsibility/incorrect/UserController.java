@@ -1,6 +1,8 @@
-package pw.goryachev.dp.solid.single_responsibility;
+package pw.goryachev.dp.solid.single_responsibility.incorrect;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import pw.goryachev.dp.solid.single_responsibility.Store;
+import pw.goryachev.dp.solid.single_responsibility.User;
 
 import java.io.IOException;
 import java.util.regex.Matcher;
@@ -10,10 +12,7 @@ import java.util.regex.Pattern;
  * Created by morgan on 11.06.2020
  */
 
-// There should never be more than one reason for a class to change
-// controller incorrect because it has validation and store functionality
-
-public class UserControllerIncorrect {
+public class UserController {
 
     //Store used by controller
     private final Store store = new Store();
