@@ -1,0 +1,3 @@
+a) High level modules should'nt depend upon low level modules/ Both sould depend on abstractions
+
+b) Abstractions should not depend on details, details should depend on abstractions
