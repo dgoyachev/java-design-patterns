@@ -1,0 +1,2 @@
+The builder pattern provides a build object which is used to construct a complex object called the product.
+It encapsulates the logic of constructing the different pieces of the product.
