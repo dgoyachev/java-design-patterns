@@ -1,0 +1,4 @@
+Factory Method Pattern. This allows interfaces for creating objects,
+but allow subclasses to determine which class to instantiate.
+
+Example: java.util.AbstractCollection.iterator()
