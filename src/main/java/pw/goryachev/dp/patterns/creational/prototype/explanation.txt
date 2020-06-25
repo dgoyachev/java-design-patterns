@@ -1,0 +1,7 @@
+The Prototype pattern is generally used when we have an instance of the class (prototype)
+and we'd like to create new objects by just copying the prototype.
+
+When we're trying to clone, we should decide between making a shallow or a deep copy.
+Eventually, it boils down to the requirements.
+For example, if the class contains only primitive and immutable fields, we may use a shallow copy.
+
