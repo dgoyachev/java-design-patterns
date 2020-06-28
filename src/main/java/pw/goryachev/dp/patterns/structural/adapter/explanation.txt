@@ -1,0 +1,13 @@
+An Adapter pattern acts as a connector between two incompatible interfaces that otherwise cannot
+be connected directly. An Adapter wraps an existing class with a new interface so that it becomes
+compatible with the client’s interface.
+
+The main motive behind using this pattern is to convert an existing interface into another interface
+that the client expects. It's usually implemented once the application is designed.
+
+1) Class adapter - adapter extends adaptee class
+2) Object adapter - adapter has a property of type adapted
+
+in the both cases adapted class executes all requests, adapter only translates result to new interface
+
+Examples - InputStreamReader and OutputStreamWriter
